@@ -5,4 +5,7 @@ Deep learning mass estimates for Planck PLSZ2 clusters. The file containing the 
 import pandas as pd
 pd.read_csv('DeepPlanck.csv')
 ```
+
+![alt text](img.png "mass table") 
+
 IMPORTANT: masses are given as the decimal logarithm of the mass in solar masses.
