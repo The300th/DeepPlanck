@@ -13,4 +13,4 @@ pd.read_csv('DeepPlanck.csv')
 
 IMPORTANT: masses are given as the decimal logarithm of the mass in solar masses.
 # Weights
-We also provide the trained CNN weights for other applications such us transfer learning.
+We also provide the trained CNN weights for other applications such us transfer learning.  The clusters masses can be predicted using the module `BaseModel.PredictMass(X,z)`. The notebook `Example.ipynb` explains how to use this module.
