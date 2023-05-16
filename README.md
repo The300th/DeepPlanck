@@ -1,4 +1,5 @@
 # DeepPlanck
+paper link : https://arxiv.org/abs/2209.10333
 ## Dependences 
 tensorflow 2.7.0
 # Introduction
