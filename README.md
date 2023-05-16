@@ -1,5 +1,8 @@
 # DeepPlanck
 paper link : https://arxiv.org/abs/2209.10333
+
+## Contact
+Please for any inquiry or comment contact the author Daniel de Andres. email: daniel.deandres@uam.es
 ## Dependences 
 tensorflow 2.7.0
 # Introduction
