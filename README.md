@@ -11,6 +11,11 @@ pd.read_csv('DeepPlanck.csv')
 
 ![alt text](img.png "mass table") 
 
-IMPORTANT: masses are given as the decimal logarithm of the mass in solar masses.
+IMPORTANT: masses are given as the decimal logarithm of the mass in solar masses. Moreover, Y_500 provided is computed from M_CNN. Following eq.(4), the quantity provided in the table 'Y_500' is 
+
+$$
+E(z)^{-2/3}\left[\frac{D_{A}^{2}(z)Y}{10^{-4} \text{Mpc} ^{2}}\right]
+$$
+
 # Weights
 We also provide the trained CNN weights for other applications such us transfer learning.  The clusters masses can be predicted using the module `BaseModel.PredictMass(X,z)`. The notebook `Example.ipynb` explains how to use this module.
